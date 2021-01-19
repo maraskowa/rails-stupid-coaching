@@ -1,0 +1,24 @@
+<div>
+  <p class="nav"><%= link_to "Back", ask_path %></p>
+</div>
+<div>
+
+  <div>
+    <p class="message" id="user">
+      <%= @message  %>
+      <br>
+      <em>-You</em>
+    </p>
+  </div>
+
+  <br>
+
+  <div>
+    <p class="message" id="coach">
+      <strong> <%= @coach_answer %> </strong>
+      <br>
+      <em>- Your coach</em>
+    </p>
+  </div>
+
+</div>
